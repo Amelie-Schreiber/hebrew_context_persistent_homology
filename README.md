@@ -15,4 +15,5 @@ Also note, that since there can be a hierarchical structure to the morphemes in 
 4. It is unclear at present how context volume effects the persistent homology of collocations and multiword expressions, that is, when the contexts have significantly different lengths.
 5. It may be important to compare different heads to one another as well. Is there a clear reason why particular heads should capture certain collocations in terms of the DBSCAN or persistent homology of context vectors and others wouldn't?
 
+
 It would be very interesting to use a Low Rank Adaptation (LoRA) for each of the models, trained with the objective of preserving the persistent homology of key phrases, collocations, and multiword expressions in some dictionary, and then testing if the models perform better on Information Extraction like tasks involving key phrases, collocations, and multiword expressions not contained in the dictionary. 
